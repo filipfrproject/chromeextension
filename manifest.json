@@ -1,0 +1,23 @@
+{
+
+	"manifest_version": 2,
+
+	"name": "Notification Pop Up",
+	"description": "This extension will test the working of a notification of incoming call",
+	"version": "1.0",
+
+	"permissions": [
+		"notifications",
+	]
+
+	"browser_action":{
+		"default_icon": {							//optional
+			"19": "images/icon19.png",				//optional
+			"38": "images/icon38.png"				//optional
+
+		},
+		"default_title": "Browser Action",			//optional
+		"default_popup": "popup.html"				//optional
+	},
+
+}
