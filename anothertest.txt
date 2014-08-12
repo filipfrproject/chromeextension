@@ -1,0 +1,1 @@
+This file will consist any notes about the current status of the project
